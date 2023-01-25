@@ -1,0 +1,15 @@
+apiVersion: tutorial.jerry.org/v1beta1
+kind: Foo
+metadata:
+  name: foo-01
+spec:
+  name: jack
+
+---
+apiVersion: tutorial.jerry.org/v1beta1
+kind: Foo
+metadata:
+  name: foo-02
+spec:
+  name: joe
+
